@@ -1,0 +1,8 @@
+go run main.go add "Fix login bug" high     # add task with priority
+go run main.go list                          # list all tasks
+go run main.go list pending                  # only pending
+go run main.go done 2                        # mark complete
+go run main.go undone 2                      # revert to pending
+go run main.go delete 3                      # remove a task
+go run main.go clear done                    # wipe completed tasks
+go run main.go stats                         # progress bar + summary
